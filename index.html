@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="pt-PT">
+        <title>A simple HTML & Css3 table</title>
+
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            body{
+                background-color: #1B2250;
+                font-family: Montserrat; 
+                display: flex;
+                flex-direction: column;
+                align-items: center;   
+                padding: 100px 0;  
+            }
+
+            h1{
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 50px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            table{
+                color: #fff;
+                text-align: left;
+                background-color: #131733;
+                padding: 10px;
+                border-radius: 20px 20px 2px 2px;
+                border-spacing: 0 20px;
+            }
+
+            th{
+                font-size: 12px;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding: 10px;
+            }
+
+
+            tbody tr{
+               background-color: #1B223F;
+                border-radius: 5px;
+            }
+
+             td{
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            .bg-blue{
+                background-image: url("img/bg-blue.png");
+                background-repeat: no-repeat;
+                background-size: 5px;
+                background-position: left center;
+            }
+            
+            .bg-pink{
+                background-image: url("img/bg-pink.png");
+                background-repeat: no-repeat;
+                background-size: 5px;
+                background-position: left center;
+            }
+
+            .nacionalidade{
+                background: linear-gradient(to right,#3996F8 30%, #BB34F1);
+                border-radius: 5px;
+                font-weight: 600;
+                text-align-last: center;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h1>Usuários cadastrados</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th>Sexo</th>
+                    <th>Data do cadastro</th>
+                    <th>Hora do cadstro</th>
+                    <th>Nacionalidade</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="bg-blue">Rui Pereira</td>
+                    <td>ruipereira@gmail.com</td>
+                    <td>935465476</td>
+                    <td>Luanda-Angola</td>
+                    <td>Masculino</td>
+                    <td>28/08/1986</td>
+                    <td>19:34:21</td>
+                    <td class="nacionalidade">Angolana</td>
+                </tr>
+                <tr>
+                    <td class="bg-blue">Nelson Pereira</td>
+                    <td>nelsonpereira8@gmail.com</td>
+                    <td>932456576</td>
+                    <td>Luanda-Angola</td>
+                    <td>Masculino</td>
+                    <td>14/02/1990</td>
+                    <td>04:43:23</td>
+                    <td class="nacionalidade">Angolana</td>
+                </tr>
+                <tr>
+                    <td class="bg-blue">António Pereira</td>
+                    <td>antonio@gmail.com</td>
+                    <td>932453456</td>
+                    <td>Luanda-Angola</td>
+                    <td>Masculino</td>
+                    <td>14/06/1999</td>
+                    <td>13:34:21</td>
+                    <td class="nacionalidade">Angolana</td>
+                </tr>
+                <tr>
+                    <td class="bg-pink">Neusa Pereira</td>
+                    <td>neusapereira@gmail.com</td>
+                    <td>943456576</td>
+                    <td>Luanda-Angola</td>
+                    <td>Feminino</td>
+                    <td>04/06/1996</td>
+                    <td>02:38:11</td>
+                    <td class="nacionalidade">Angolana</td>
+                </tr>
+                <tr>
+                    <td class="bg-blue">Félix Pereira</td>
+                    <td>felixpereira538@gmail.com</td>
+                    <td>947647832</td>
+                    <td>Luanda-Angola</td>
+                    <td>Masculino</td>
+                    <td>14/06/1999</td>
+                    <td>13:34:21</td>
+                    <td class="nacionalidade">Angolana</td>
+                </tr>
+                <tr>
+                    <td class="bg-blue">Daniel Pereira</td>
+                    <td>fdaniel@gmail.com</td>
+                    <td>94565345</td>
+                    <td>Luanda-Angola</td>
+                    <td>Masculino</td>
+                    <td>09/06/2001</td>
+                    <td>13:34:21</td>
+                    <td class="nacionalidade">Angolana</td>
+                </tr>
+                <tr>
+                    <td class="bg-pink">Juana Pereira</td>
+                    <td>juanapereira@gmail.com</td>
+                    <td>934543564</td>
+                    <td>Luanda-Angola</td>
+                    <td>Feminino</td>
+                    <td>10/09/2003</td>
+                    <td>12:34:54</td>
+                    <td class="nacionalidade">Angolana</td>
+                </tr>
+            </tbody>
+
+        </table>
+        
+    </body>
+</html>
